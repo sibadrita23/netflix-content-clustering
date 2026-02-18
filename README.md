@@ -20,12 +20,12 @@ The project is implemented in a single script: src/netflix_project.py.
 
 Key steps include:
 
-1.  Import Libraries & Load Dataset – Required packages: pandas, numpy, sklearn, matplotlib, seaborn, wordcloud, etc.
+1.  Import Libraries & Load Dataset – Required packages: pandas, numpy, sklearn, matplotlib, seaborn, wordcloud.
 2.  Basic Data Inspection – Explore dataset structure, missing values, and descriptive statistics.
 3.  Data Cleaning – Handle missing values, normalize text, remove unnecessary columns.
 4.  Feature Engineering – Combine and preprocess text fields (genres, cast, director, description).
 5.  TF-IDF Vectorization – Convert text features into numerical vectors for clustering.
-6.  Dimensionality Reduction – Apply PCA/SVD to reduce high-dimensional vectors.
+6.  Dimensionality Reduction – Apply SVD to reduce high-dimensional vectors.
 7.  Determine Optimal Clusters – Use the elbow method and silhouette analysis to find the optimal number of clusters.
 8.  Clustering Algorithms – Implement:
    . K-Means Clustering
